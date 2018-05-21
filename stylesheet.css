@@ -1,0 +1,83 @@
+.body {
+    font-size: 24px;
+}
+.header {
+    position: fixed;
+    width: 95%;
+    height: 60px;
+    margin-top: -20px;
+    background-color: #CAFA55;
+    z-index: 1;
+}
+
+.header > p {
+    display: inline-block;
+    margin: 25px;
+}
+
+#name {
+    float: left;
+}
+
+#email {
+    float: right;
+}
+
+#left {
+    background-color: #3897f0;
+    width: 10%;
+    float: left;
+    position: relative;
+    top: 60px;
+}
+
+#right {
+    background-color: #F4EBC3;
+    float: right;
+    width: 88%;
+    margin-top: 60px;
+    padding: 0px 10px;
+}
+
+.footer {
+    position: relative;
+    top: 10px;
+    background-color: red;
+    height: 60px;
+    width: 95%;
+    clear: both;
+}
+
+.leftAlign {
+    float: left;
+}
+
+.rightAlign {
+    float: right;
+}
+
+.hl {
+    display: inline-block;
+    margin: 0px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#name {
+    margin-left: 10px;
+}
+
+#email {
+    margin-right: 10px;
+}
+
+.internshipDetails {
+    clear: both;
+}
+
+#experience li {
+    margin-bottom: 0px;
+    clear:both;
+}
